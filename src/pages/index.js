@@ -2,12 +2,12 @@
 import Head from "next/Head";
 import data from "../data";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>{`${data.author.first_name} ${data.author.last_name}`} | Resume</title>
-      </Head>
+      </Head> */}
 
 
       <div class="container mx-auto max-w-screen-xl">
@@ -20,7 +20,6 @@ export default function Home() {
             class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white"
           >
             <div class="px-2 mb-12">
-              {/*  */}
               <img src="./assets/images/profile.jpg"
                 alt="Profile Picture"
                 class="rounded-full w-48 mx-auto mb-2"
@@ -32,7 +31,6 @@ export default function Home() {
             <div class="font-light text-lg px-2 mb-12">
               <h2 class="text-xl font-semibold mb-4">Contact</h2>
               <div class="flex items-center my-3">
-                {/*  */}
                 <img
                   src="./assets/images/mail-outline.svg"
                   class="inline w-6 mr-4"
@@ -41,7 +39,6 @@ export default function Home() {
                 <a href="mailto:">RezaRostaminikoo@gmail.com</a>
               </div>
               <div class="flex items-center my-3">
-                {/*  */}
                 <img
                   src="./assets/images/call-outline.svg"
                   class="inline w-6 mr-4"
@@ -50,7 +47,6 @@ export default function Home() {
                 <a href="tel:">343 297 1271</a>
               </div>
               <div class="flex items-center my-3">
-                {/*  */}
                 <img
                   src="./assets/images/home-outline.svg"
                   class="inline w-6 pb-1 mr-4"
@@ -392,6 +388,9 @@ export default function Home() {
           class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0"
         >Photo by Jack Finnigan</a
         >
-      </footer></>
+      </footer>
+    </>
   )
 }
+
+export default Home;
