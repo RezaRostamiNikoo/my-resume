@@ -5,7 +5,6 @@ const _document = () => {
     return (
         <Html lang="en">
             <Head>
-                <title>{`${data.author.first_name} ${data.author.last_name}`} | Resume</title>
                 <link rel="icon" href={data.favicon_url} />
                 <meta httpEquiv="Content-type" content="text/html; charset=utf-8" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />

@@ -20,7 +20,7 @@ export default function Home() {
             class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white"
           >
             <div class="px-2 mb-12">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
+              {/*  */}
               <img src="./assets/images/profile.jpg"
                 alt="Profile Picture"
                 class="rounded-full w-48 mx-auto mb-2"
@@ -32,7 +32,7 @@ export default function Home() {
             <div class="font-light text-lg px-2 mb-12">
               <h2 class="text-xl font-semibold mb-4">Contact</h2>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
+                {/*  */}
                 <img
                   src="./assets/images/mail-outline.svg"
                   class="inline w-6 mr-4"
@@ -41,7 +41,7 @@ export default function Home() {
                 <a href="mailto:">RezaRostaminikoo@gmail.com</a>
               </div>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
+                {/*  */}
                 <img
                   src="./assets/images/call-outline.svg"
                   class="inline w-6 mr-4"
@@ -50,7 +50,7 @@ export default function Home() {
                 <a href="tel:">343 297 1271</a>
               </div>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
+                {/*  */}
                 <img
                   src="./assets/images/home-outline.svg"
                   class="inline w-6 pb-1 mr-4"
@@ -65,7 +65,7 @@ export default function Home() {
             <div class="font-light text-lg px-2 mb-12">
               <h2 class="text-xl font-semibold mb-4">Personal</h2>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
+                {/*  */}
                 <img
                   src="./assets/images/egg-outline.svg"
                   class="inline w-6 mr-4"
@@ -78,7 +78,6 @@ export default function Home() {
             <div class="font-light text-lg px-2 mb-12">
               <h2 class="text-xl font-semibold mb-4">On the Web</h2>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="./assets/images/logo-github.svg"
                   class="inline w-6 mr-4"
@@ -87,7 +86,6 @@ export default function Home() {
                 <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="./assets/images/logo-stackoverflow.svg"
                   class="inline w-6 mr-4"
@@ -98,7 +96,6 @@ export default function Home() {
                 >
               </div>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="./assets/images/logo-linkedin.svg"
                   class="inline w-6 mr-4"
@@ -107,7 +104,6 @@ export default function Home() {
                 <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="./assets/images/logo-twitter.svg"
                   class="inline w-6 mr-4"
@@ -118,7 +114,6 @@ export default function Home() {
                 >
               </div>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="./assets/images/logo-codepen.svg"
                   class="inline w-6 mr-4"
@@ -127,7 +122,6 @@ export default function Home() {
                 <a href="#" target="_blank" rel="noopener noreferrer">CodePen</a>
               </div>
               <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="./assets/images/globe-outline.svg"
                   class="inline w-6 mr-4"
