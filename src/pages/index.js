@@ -1,9 +1,16 @@
 
+import Head from "next/Head";
 import Image from "next/image";
+import data from "../data";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>{`${data.author.first_name} ${data.author.last_name}`} | Resume</title>
+      </Head>
+
+
       <div class="container mx-auto max-w-screen-xl">
         <main
           id="wrapper"
@@ -41,7 +48,7 @@ export default function Home() {
                   class="inline w-6 mr-4"
                   alt="Phone icon"
                 />
-                <a href="tel:">0123 456 789</a>
+                <a href="tel:">343 297 1271</a>
               </div>
               <div class="flex items-center my-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -51,8 +58,7 @@ export default function Home() {
                   alt="House icon"
                 />
                 <div>
-                  <p>Dev Street 13</p>
-                  <p>Dev Town</p>
+                  <p>Ottawa, Canada</p>
                 </div>
               </div>
             </div>
@@ -66,16 +72,7 @@ export default function Home() {
                   class="inline w-6 mr-4"
                   alt="Egg Icon"
                 />
-                <span>Born on 27th of May 2000</span>
-              </div>
-              <div class="flex items-center my-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="./assets/images/people-outline.svg"
-                  class="inline w-6 mr-4"
-                  alt="Two Persons Icon"
-                />
-                <span>Married, two kids</span>
+                <span>Born on 4th of July 1993</span>
               </div>
             </div>
 
@@ -210,8 +207,8 @@ export default function Home() {
             <div id="profile" class="prose">
               <h2 class="section-headline">Profile</h2>
               <p>
-                I'm a self-taught web developer focusing on the core web
-                fundamentals - HTML, CSS and JS. I'm experienced in frontend
+                I&apos;m a self-taught web developer focusing on the core web
+                fundamentals - HTML, CSS and JS. I&apos;m experienced in frontend
                 frameworks like Vue and React and static site generators like
                 Next.js and Eleventy. I write SCSS or use CSS frameworks like
                 TailwindCSS, Bootstrap or Bulma to speed up styling of my
@@ -284,7 +281,7 @@ export default function Home() {
                   </div>
                   <div class="lg:inline-block lg:w-8/12 w-full">
                     My blog is the center of my online presence. Here, I share
-                    posts about what I've learnt, tutorials and my thoughts on web
+                    posts about what I&apos;ve learnt, tutorials and my thoughts on web
                     development in general.
                   </div>
                 </section>
@@ -349,7 +346,7 @@ export default function Home() {
               <h2 class="section-headline">Expand my skills</h2>
               <div class="mb-16">
                 <h4 id="expand-knowledge-headline">
-                  I'd like to expand my skills and knowledge in several fields
+                  I&apos;d like to expand my skills and knowledge in several fields
                 </h4>
                 <ul>
                   <li>TypeScript</li>
