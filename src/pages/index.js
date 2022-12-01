@@ -1,15 +1,8 @@
 
-// import Head from "next/Head";
-import data from "../data";
 
 const Home = () => {
   return (
     <>
-      {/* <Head>
-        <title>{`${data.author.first_name} ${data.author.last_name}`} | Resume</title>
-      </Head> */}
-
-
       <div class="container mx-auto max-w-screen-xl">
         <main
           id="wrapper"
