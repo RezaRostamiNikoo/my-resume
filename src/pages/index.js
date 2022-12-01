@@ -1,6 +1,5 @@
 
 import Head from "next/Head";
-import Image from "next/image";
 import data from "../data";
 
 export default function Home() {
