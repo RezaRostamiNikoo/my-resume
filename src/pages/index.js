@@ -1,5 +1,5 @@
 
-import Head from "next/Head";
+// import Head from "next/Head";
 import data from "../data";
 
 const Home = () => {
