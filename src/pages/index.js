@@ -92,22 +92,15 @@ export default function Home() {
             <div class="font-light text-lg px-2 mb-12">
               <h2 class="text-xl font-semibold mb-4">Skills & Tools</h2>
               <ul class="list-none">
-                <Skill title="Docker" value="70" />
-                <Skill title="Ansible" value="70" />
-                <Skill title="Gitlab CI/CD" value="70" />
-                <Skill title="javascript" value="70" />
-                <Skill title="React" value="70" />
-                <Skill title="Next.js" value="70" />
                 <Skill title="Laravel" value="90" />
+                <Skill title="javascript" value="80" />
+                <Skill title="React" value="80" />
+                <Skill title="Docker" value="60" />
+                <Skill title="Ansible" value="50" />
+                <Skill title="Gitlab CI/CD" value="40" />
                 <Skill title="Figma" value="40" />
-                <li>
-                  <div>Infrastructure / Hosting / DB</div>
-                  <p class="leading-8 flex flex-wrap gap-1">
-                    <Skill title="Ansible" />
-                    <Skill title="GitLab CI/CD" />
-                    <Skill title="Docker" />
-                  </p>
-                </li>
+                <Skill title="Next.js" value="20" />
+
               </ul>
             </div>
 
@@ -142,18 +135,18 @@ export default function Home() {
             <div class="prose">
               <h2 class="section-headline mb-4">Experience</h2>
               <div>
-                <div class="flex justify-between">
+                <div class="flex justify-between mb-2">
                   <h3 class="font-semibold">Viratarhe Farda Co.</h3>
-                  <p class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                    Jan&nbsp;2022 - Agust&nbsp;2022
-                  </p>
                 </div>
-                <section class="mb-2">
-                  <div class="lg:inline-block lg:w-8/12 w-full">
+                <section class="mb-1">
+                  <div class="lg:inline-block lg:w-4/12 w-full">
                     Fullstack Developer
                   </div>
+                  <div class="lg:inline-block lg:w-8/12 lg:align-top italic mb-2">
+                    Jan&nbsp;2022 - Agust&nbsp;2022
+                  </div>
                 </section>
-                <section class="mb-6">
+                <section class="mb-1">
                   <div class="lg:inline-block lg:w-4/12 lg:align-top italic mb-2">
                     Task:
                   </div>
@@ -175,109 +168,46 @@ export default function Home() {
                   </div>
                 </section>
               </div>
-            </div>
-            <hr class="mt-8 mb-12" />
-            <div class="prose">
-              <h2 class="section-headline mb-4">Projects</h2>
-              <div class="mb-16">
-                <h3 id="chrisko-headline">Chrisko.io</h3>
-                <section class="mb-6">
-                  <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                    Personal blog:
-                  </div>
-                  <div class="lg:inline-block lg:w-8/12 w-full">
-                    My blog is the center of my online presence. Here, I share
-                    posts about what I&apos;ve learnt, tutorials and my thoughts on web
-                    development in general.
-                  </div>
-                </section>
-                <section class="mb-6">
-                  <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                    Deployed to:
-                  </div>
-                  <div class="lg:inline-block lg:w-8/12 w-full">
-                    <a
-                      href="https://chrisko.io"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >chrisko.io</a
-                    >
-                  </div>
-                </section>
-                <section class="mb-6">
-                  <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                    Code on:
-                  </div>
-                  <div class="lg:inline-block lg:w-8/12 w-full">
-                    <a
-                      href="https://github.com/christiankozalla/nextjs-blog"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >GitHub/nextjs-blog</a
-                    >
-                  </div>
-                </section>
-                <section class="mb-6">
-                  <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                    Features:
-                  </div>
-                  <div class="lg:inline-block lg:w-8/12 w-full">
-                    <ul>
-                      <li>Static generation</li>
-                      <li>Blog content written in Markdown</li>
-                      <li>Counter for pageviews and likes</li>
-                      <li>My latest tweets</li>
-                      <li>Featured images made with Inkscape</li>
-                      <li>SEO</li>
-                    </ul>
-                  </div>
-                </section>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <h3 class="font-semibold">Fotros</h3>
 
-                <section class="mb-6">
-                  <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                    Built with:
+                </div>
+                <section class="mb-1">
+                  <div class="lg:inline-block lg:w-4/12 w-full">
+                    Fullstack Developer
+                  </div>
+                  <div class="lg:inline-block lg:w-8/12 lg:align-top italic mb-2">
+                    August&nbsp;2020 - January&nbsp;2021
+                  </div>
+                </section>
+                <section class="mb-1">
+                  <div class="lg:inline-block lg:w-4/12 lg:align-top italic mb-2">
+                    Task:
                   </div>
                   <div class="lg:inline-block lg:w-8/12 w-full">
-                    <span class="rounded-xl bg-gray-300 px-3">Next.js</span>
-                    <span class="rounded-xl bg-gray-300 px-3">CSS</span>
-                    <span class="rounded-xl bg-gray-300 px-3">styled-jsx</span>
-                    <span class="rounded-xl bg-gray-300 px-3">DynamoDB</span>
-                    <span class="rounded-xl bg-gray-300 px-3">Vercel</span>
+                    I joined the company for <b>reviewing</b> codes, changing the UI, and adding new features.
+                    The back-end had been written with <b>PHP (Laravel Framework)</b>, and front-end was simple
+                    <b> HTML </b>
+                    with the help of the <b>Blade</b> template engine. Soon, I could convince them to utilize React as
+                    the front-end technology.
+                  </div>
+                </section>
+                <section class="mb-6">
+                  <div class="lg:inline-block lg:w-4/12 lg:align-top italic mb-2">
+                    Tools:
+                  </div>
+                  <div class="lg:inline-block lg:w-8/12 w-full flex gap-1 flex-wrap">
+                    <Skill title="Laravel" />
+                    <Skill title="React" />
                   </div>
                 </section>
               </div>
             </div>
             <hr class="mt-8 mb-12" />
-            <div class="prose">
-              <h2 class="section-headline  mb-4">Expand my skills</h2>
-              <div class="mb-16">
-                <h4 id="expand-knowledge-headline">
-                  I&apos;d like to expand my skills and knowledge in several fields
-                </h4>
-                <ul>
-                  <li>TypeScript</li>
-                  <li>Testing, e.g. with Mocha, Chai, Jest</li>
-                  <li>Web Components, e.g. with StencilJS, LitElement</li>
-                  <li>Prototyping and Wireframing, e.g. with Figma, Adobe XD</li>
-                  <li>Scalable Vector Graphics</li>
-                  <li>Databases</li>
-                  <li>Mobile development</li>
-                  <li>
-                    Backend development, e.g. learn additional language like Go,
-                    Python, PHP, Ruby, Java, Rust
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </main>
       </div>
-      <footer class="mt-12 text-center flex justify-center flex-col md:flex-row mx-12">
-        <a
-          href="https://www.freepik.com/free-vector/branding-identity-corporate-vector-logo-r-design_23214892.htm#query=R&position=12&from_view=search&track=sph"
-          class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0"
-        >Image by Rochak Shukla on Freepik</a>
-      </footer>
     </>
   )
 };
