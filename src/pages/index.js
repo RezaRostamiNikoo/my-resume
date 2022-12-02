@@ -171,7 +171,6 @@ export default function Home() {
               <div>
                 <div class="flex justify-between mb-2">
                   <h3 class="font-semibold">Fotros</h3>
-
                 </div>
                 <section class="mb-1">
                   <div class="lg:inline-block lg:w-4/12 w-full">
