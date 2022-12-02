@@ -5,7 +5,6 @@ const _document = () => {
     return (
         <Html lang="en">
             <Head>
-                <title>{`${data.author.first_name} ${data.author.last_name}`} | Resume</title>
                 <link rel="icon" href={data.favicon_url} />
                 <meta httpEquiv="Content-type" content="text/html; charset=utf-8" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -24,38 +23,6 @@ const _document = () => {
                 <meta name="twitter:title" content={data.twitter_title} />
                 <meta name="twitter:description" content={data.description} />
                 <meta name="twitter:image" content={data.author.image_url} />
-
-                {/* for google analytics
-                {isValid(resumeGAID) && (
-                    <>
-                        <script async src={`https://www.googletagmanager.com/gtag/js?id=${resumeGAID}`}></script>
-                        <script
-                            dangerouslySetInnerHTML={{
-                                __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${resumeGAID}');`,
-                            }}
-                        />
-                    </>
-                )} */}
-
-                {/* for hotjar
-                {isValid(resumeHotjarID) && (
-                    <script
-                        dangerouslySetInnerHTML={{
-                            __html: `(function(h,o,t,j,a,r){
-              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-              h._hjSettings={hjid:${resumeHotjarID},hjsv:6};
-              a=o.getElementsByTagName('head')[0];
-              r=o.createElement('script');r.async=1;
-              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-              a.appendChild(r);
-          })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
-                        }}
-                    ></script>
-                )} */}
 
             </Head>
             <body>
